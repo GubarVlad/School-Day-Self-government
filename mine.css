@@ -7,10 +7,10 @@
 .logo {
     width: 45px;
     height: 45px;
-    margin-left: 26px;
+    margin-left: 10px;
     justify-content: left;
     align-items: left;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .mainhead {
@@ -24,6 +24,7 @@ font-family: "Montserrat", serif;
   font-size: 20px;
   font-weight: 400;
   font-style: light;
+  margin-top: -24px;
 }
 
 .rgtop {
@@ -38,11 +39,11 @@ font-family: "Montserrat", serif;
  width: 45px;
  height: 13px;
  text-align: center;
- margin-top: 18px;
+ margin-top: -20px;
 }
 
 .fon {
-  margin-top: 33px;
+  margin-top: 20px;
   background-color: #0066FF;
   height: 330px;
   position: relative; /* Добавляем для позиционирования дочерних элементов */
@@ -121,4 +122,5 @@ height: 100px;
   align-items: center;
   width: 100%;
 }
+
  
