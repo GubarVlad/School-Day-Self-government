@@ -1,0 +1,73 @@
+
+  /* Контейнер для всего таймера */
+  .timer-container {
+    max-width: 300px; /* При необходимости задайте ширину */
+    margin: 0 auto;   /* Центрируем */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Заголовок "До дня 'X' осталось:" */
+  .timer-title {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: medium;
+    font-size: 28px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    margin-left: -23px;
+  }
+
+  /* Общий контейнер для всех блоков времени */
+  .timer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Каждый блок (дни, часы, минуты, секунды) */
+  .time-part {
+    display: flex;
+    flex-direction: column; /* Число и подпись идут вертикально */
+    margin-bottom: 20px;
+  }
+
+  /* Стили для чисел (сто тридцать пять и т.д.) */
+  .value1, .value2, .value3, .value {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: medium;
+    font-size: 40px;        /* Подберите нужный размер */
+    margin-bottom: 1px;   
+    margin-left: -20px;  /* Отступ между числом и словом */
+    line-height: 1.2;
+  }
+
+  /* Стили для слов "дней", "часов", "минут", "секунд" */
+  .time-label {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: medium;
+    font-size: 40px;        /* Подберите нужный размер */
+    font-weight: 400;
+    line-height: 1.2;
+    margin-left: 206px;
+    margin-bottom: 20px;
+  }
+
+  /* При желании можно добавить ещё отступов, цвета и т.д. */
+
+  .time-part {
+    border-bottom: 1px solid #ccc; /* линия снизу */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .time-part:last-child {
+    border-bottom: none; /* у последнего блока убираем линию */
+  }

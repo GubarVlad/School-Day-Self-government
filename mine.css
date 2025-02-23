@@ -1,0 +1,63 @@
+.html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    margin-left: 26px;
+    justify-content: left;
+    align-items: left;
+    margin-top: 40px;
+}
+
+.mainhead {
+    justify-content: right;
+    align-items: right;
+}
+
+.AB {
+font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: light;
+}
+
+.rgtop {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin-right: 26px;
+}
+
+.menu {
+ margin-left: 37px;
+ width: 45px;
+ height: 13px;
+ text-align: center;
+ margin-top: 18px;
+}
+
+.fon {
+  margin-top: 33px;
+  background-color: #0066FF;
+  height: 330px;
+}
+
+.fon-pattern {
+  z-index: 1;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+.pattern {
+  height: 330px;
+}
+
+.main-text {
+  z-index: 2;
+}
