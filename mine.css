@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mainhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+}
+
+.rgtop {
+  display: flex;
+  align-items: center;
+}
+
+.AB {
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 15px;
+}
+
+.menu {
+  width: 45px;
+  height: 13px;
+}
+
+.fon {
+  background-color: #0066FF;
+  height: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.fon-text {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.fon-text h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.fon-text p {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.fon-pattern {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  z-index: 1;
+}
+
+.fon-pattern img {
+  height: 100%;
+  max-height: 326px;
+}
+
+.line {
+  width: 100%;
+  height: 100px;
+  background: url(img/line.png) no-repeat center center;
+  background-size: cover;
+}
+
+.theend {
+  display: block;
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+.btn {
+  text-align: center;
+  margin: 20px auto;
+  padding-bottom: 20px; 
+}
+
+.btn img {
+  max-width: 40%;
+  height: auto;
+}
+
+
+@media (max-width: 768px) {
+  .btn img {
+    max-width: 60%; 
+  }
+}
+
+.copyright {
+    position: fixed; 
+    bottom: 10px; 
+    left: 10px; 
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.512); 
+    font-family: 'Montserrat', sans-serif;
+  }
