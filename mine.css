@@ -1,126 +1,85 @@
-.html, body {
-  height: 100%;
+body {
   margin: 0;
   padding: 0;
-}
-
-.logo {
-    width: 45px;
-    height: 45px;
-    margin-left: 10px;
-    justify-content: left;
-    align-items: left;
-    margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .mainhead {
-    justify-content: right;
-    align-items: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
 
-.AB {
-font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-size: 20px;
-  font-weight: 400;
-  font-style: light;
-  margin-top: -24px;
+.logo img {
+  width: 45px;
+  height: 45px;
 }
 
 .rgtop {
   display: flex;
-  justify-content: right;
-  align-items: right;
-  margin-right: 26px;
+  align-items: center;
+}
+
+.AB {
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 15px;
 }
 
 .menu {
- margin-left: 37px;
- width: 45px;
- height: 13px;
- text-align: center;
- margin-top: -20px;
+  width: 45px;
+  height: 13px;
 }
 
 .fon {
-  margin-top: 20px;
   background-color: #0066FF;
   height: 330px;
-  position: relative; /* Добавляем для позиционирования дочерних элементов */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 20px;
 }
 
 .fon-text {
-  position: absolute;
-  top: 50%;
-  left: 5%;
-  transform: translateY(-50%);
   color: #fff;
-  font-family: sans-serif;
 }
 
 .fon-text h1 {
-  font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
   font-size: 40px;
-  margin-bottom: 10px;
+  font-weight: 600;
 }
 
 .fon-text p {
-  font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
   font-size: 24px;
-  line-height: 1.4;
+  font-weight: 300;
 }
 
-.fon-pattern {
-  z-index: 1;
-  display: flex;
-  justify-content: right;
-  align-items: right;
-}
-
-.pattern {
-  height: 330px;
-}
-
-.main-text {
-  z-index: 2;
+.fon-pattern img {
+  height: 100%;
+  max-height: 326px;
 }
 
 .line {
-width: 100vw;
-margin-left: calc(-50vw + 50%);
-background: url(img/line.png) no-repeat center center;
-background-size: cover;
-overflow: hidden;
-height: 100px;
+  width: 100%;
+  height: 100px;
+  background: url(img/line.png) no-repeat center center;
+  background-size: cover;
 }
 
-.whattext h1 {
-  font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-
-.whattext p {
-  font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 1.4;
+.theend {
+  display: block;
+  max-width: 90%;
+  margin: 20px auto;
 }
 
 .btn {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  text-align: center;
+  margin: 20px auto;
 }
 
- 
+.btn img {
+  max-width: 40%; /* Сделал кнопки меньше */
+  height: auto;
+}
